@@ -1,6 +1,7 @@
 {
   "name": "vite-plugin-images-sharp",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "private": false,
   "description": "vite插件，转换webp、avif格式",
   "main": "lib/vite-plugin-images-sharp.js",
   "module": "lib/vite-plugin-images-sharp.esm.js",
@@ -11,7 +12,7 @@
   "scripts": {
     "dev": "NODE_ENV=development rollup -c -w",
     "build": "rollup -c",
-    "publish": "npm run build && npm publish",
+    "publish_a": "npm run build && npm publish",
     "commit": "git-cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,7 +28,7 @@
     "jpg"
   ],
   "author": "lbr",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "sharp": "0.30.5"
   },
@@ -44,16 +45,8 @@
     "rollup-plugin-typescript2": "^0.32.1",
     "typescript": "^4.7.4"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/903529487/vite-plugin-images-sharp.git"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
