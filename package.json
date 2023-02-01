@@ -51,10 +51,6 @@
     "type": "git",
     "url": "https://github.com/903529487/vite-plugin-images-sharp.git"
   },
-  "homepage": "https://github.com/luchuanqi/vite-plugin-webp/blob/master/README.md",
-  "bugs": {
-    "url": "https://github.com/luchuanqi/vite-plugin-webp/issues"
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
