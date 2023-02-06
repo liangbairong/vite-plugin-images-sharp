@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-images-sharp",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "private": false,
   "description": "vite插件，转换webp、avif格式",
   "main": "lib/vite-plugin-images-sharp.js",
