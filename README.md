@@ -14,8 +14,8 @@ import imagesSharp from 'vite-plugin-images-sharp';
 export default defineConfig({
   plugins: [
       imagesSharp({
-          entry: join(__dirname, './src/public/images'),  //入口目录
-          outDir: join(__dirname, './artifact/images'),  //输入目录
+          entry: resolve(__dirname, './src/public/images'),  //入口目录
+          outDir: resolve(__dirname, './artifact/images'),  //输入目录
       })
   ]
 });
