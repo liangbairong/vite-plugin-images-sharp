@@ -29,8 +29,8 @@ function getWebpPath(id: string, entry, outDir, type): string {
     const arr = id.split('.');
     const suffix = arr[arr.length - 1];
     const reg = new RegExp(`${suffix}$`);
-    const reg2 = new RegExp(`${entry}`, 'g');
-    return id.replace(reg, type).replace(reg2, outDir);
+    // const reg2 = new RegExp(`${entry}`, 'g');
+    return id.replace(reg, type).replace(entry, outDir);
 }
 export default {
     toArray,

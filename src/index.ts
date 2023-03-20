@@ -27,7 +27,7 @@ export default function main(options: IOptions | unknown = {}) {
         closeBundle() {
             if (opts.compileTime === 'after') {
                 handle(opts);
-                console.info('编译结束');
+                console.info('图片转换结束');
             }
         },
     };
